@@ -1,0 +1,194 @@
+/* RandomizedQueue.java */
+/* $Date$
+ * $Id$
+ * $Version: 0.1$
+ * $Revision: 1$
+ */
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/*
+ *
+ * @author skurvikn
+ */
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+// import java.lang.reflect.Array;
+
+public class RandomizedQueue<Item> implements Iterable<Item> {
+/* _if_ */
+    private final String delimeter = "=======";
+/* _endif_ */
+    private int iSize;
+    private static class Node<Item> {
+        private Item item;
+        private Node<Item> next;
+        private Node<Item> prev;
+    }
+    private Node<Item> nodeFirst;
+    private Node<Item> nodeLast;
+    private Node<Item> arrNodes[];
+    private int iArrNodesSize;
+
+    // construct an empty randomized queue
+    @SuppressWarnings("unchecked")
+    public RandomizedQueue() {
+        nodeFirst = null;
+        nodeLast = null;
+        iSize = 0;
+        iArrNodesSize = 2;
+        arrNodes = (Node<Item>[]) new Node[iArrNodesSize];
+    }
+
+    // is the queue empty?
+    public boolean isEmpty() { return (null == nodeFirst); }
+
+    // return the number of items on the queue
+    public int size() { return iSize; }
+
+    // resize the underlying array
+    @SuppressWarnings("unchecked")
+    private void resize(int max) {
+        iArrNodesSize = max;
+        Node<Item>[] arrTemp = (Node<Item>[]) new Node[max];
+        int j = 0;
+        for (int i = 0; i < arrNodes.length; ++i) {
+            arrTemp[j] = arrNodes[i];
+            if (null != arrTemp[j]) {
+                j++;
+            }
+            if (j == max)
+                break;
+        }
+        arrNodes = arrTemp;
+    }
+
+    // add the item
+    public void enqueue(Item item) {
+        if (null == item) {
+            throw new java.lang.NullPointerException();
+        }
+        Node<Item> nodeTemp = nodeLast;
+        if (isEmpty()) {
+            nodeLast = new Node<Item>();
+            nodeFirst = nodeLast;
+            nodeLast.prev = null;
+        } else {
+            nodeLast = new Node<Item>();
+            nodeLast.prev = nodeTemp;
+            nodeTemp.next = nodeLast;
+        }
+        nodeLast.item = item;
+        nodeLast.next = null;
+        if (arrNodes.length == iSize) {
+            resize(2*arrNodes.length);
+        }
+        arrNodes[iSize] = nodeLast;
+        iSize++;
+    }
+
+    // remove and return a random item
+    public Item dequeue() {
+        if (isEmpty()) {
+            throw new java.lang.UnsupportedOperationException();
+        }
+        int iRandom = StdRandom.uniform(iSize);
+        int i = iRandom;
+        int j = iRandom;
+/* _if_ */
+            StdOut.printf("iSize = %d, iRandom = %d\n", iSize, iRandom);
+/* _endif_ */
+        Node<Item> nodeTemp = arrNodes[iRandom];
+        while (null == nodeTemp && iSize > 0) {
+            if (i < iArrNodesSize) { ++i; }
+            nodeTemp = arrNodes[i];
+            if (null != nodeTemp) {
+                iRandom = i;
+                break;
+            }
+            if (j > 0) { --j; }
+            nodeTemp = arrNodes[j];
+            if (null != nodeTemp) {
+                iRandom = j;
+                break;
+            }
+        }
+        Item itemTemp = nodeTemp.item;
+        if (null != nodeTemp.next) {
+            nodeTemp.next.prev = nodeTemp.prev;
+        }
+        if (null != nodeTemp.prev) {
+            nodeTemp.prev.next = nodeTemp.next;
+        }
+        if (iRandom >= 0) {
+            arrNodes[iRandom] = nodeTemp = null;
+        }
+        iSize--;
+        if (iSize > 0 && iSize == arrNodes.length/4) {
+            resize(arrNodes.length/2);
+        }
+        return itemTemp;
+    }
+
+    // return (but do not remove) a random item
+    public Item sample() {
+        return arrNodes[StdRandom.uniform(iSize)].item;
+    }
+
+    // an iterator, doesn't implement remove() since it's optional
+    private class ListIterator<itrItem> implements Iterator<itrItem> {
+        private Node<itrItem> current;
+
+        public ListIterator(Node<itrItem> first) {
+            current = first;
+        }
+
+        public boolean hasNext() { return current != null; }
+        public void remove()     { throw new java.util.NoSuchElementException(); }
+
+        public itrItem next() {
+            if (!hasNext()) throw new NoSuchElementException();
+            itrItem item = current.item;
+            current = current.next; 
+            return item;
+        }
+    }
+
+    // return an independent iterator over items in random order
+    public Iterator<Item> iterator() {
+        return new ListIterator<Item>(nodeFirst);
+    }
+
+    // unit testing
+    // public static void main(String[] args) {
+    // }
+
+/* _if_ */
+    public void printAllNodesDown() {
+        boolean whileTrigger = false;
+        Node<Item> e = nodeFirst;
+        while (e != null) {
+            StdOut.println(delimeter);
+            StdOut.printf("e.pntr: %b\n", e);
+            StdOut.printf("e.item: \"%s\"\n", e.item);
+            StdOut.printf("e.next: %s\n",
+                          (null != e.next ? "linked" : "nolink"));
+            StdOut.printf("e.prev: %s\n",
+                          (null != e.prev ? "linked" : "nolink"));
+            e = e.next;
+            whileTrigger = true;
+        }
+        if (whileTrigger) {
+            StdOut.println(delimeter);
+        }
+    }
+/* _endif_ */
+}
+
+/* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et
+ */
+//EOF

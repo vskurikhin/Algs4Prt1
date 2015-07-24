@@ -1,0 +1,3004 @@
+Runtime.freeMemory() = 61089536
+Runtime.totalMemory() = 62390272
+i:0000:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0001:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0002:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0003:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0004:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0005:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0006:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0007:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0008:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0009:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0010:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0011:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0012:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0013:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0014:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0015:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0016:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0017:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0018:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0019:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0020:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0021:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0022:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0023:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0024:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0025:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0026:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0027:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0028:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0029:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0030:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0031:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0032:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0033:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0034:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0035:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0036:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0037:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0038:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0039:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0040:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0041:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0042:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0043:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0044:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0045:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0046:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0047:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0048:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0049:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0050:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0051:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0052:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0053:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0054:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0055:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0056:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0057:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0058:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0059:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0060:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0061:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0062:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0063:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0064:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0065:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0066:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0067:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0068:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0069:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0070:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0071:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0072:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0073:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0074:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0075:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0076:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0077:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0078:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0079:
+Runtime.freeMemory() = 60764464
+Runtime.totalMemory() = 62390272
+i:0080:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0081:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0082:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0083:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0084:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0085:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0086:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0087:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0088:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0089:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0090:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0091:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0092:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0093:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0094:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0095:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0096:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0097:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0098:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0099:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0100:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0101:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0102:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0103:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0104:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0105:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0106:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0107:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0108:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0109:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0110:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0111:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0112:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0113:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0114:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0115:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0116:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0117:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0118:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0119:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0120:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0121:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0122:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0123:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0124:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0125:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0126:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0127:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0128:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0129:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0130:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0131:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0132:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0133:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0134:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0135:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0136:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0137:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0138:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0139:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0140:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0141:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0142:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0143:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0144:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0145:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0146:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0147:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0148:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0149:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0150:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0151:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0152:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0153:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0154:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0155:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0156:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0157:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0158:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0159:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0160:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0161:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0162:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0163:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0164:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0165:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0166:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0167:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0168:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0169:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0170:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0171:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0172:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0173:
+Runtime.freeMemory() = 60439408
+Runtime.totalMemory() = 62390272
+i:0174:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0175:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0176:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0177:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0178:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0179:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0180:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0181:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0182:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0183:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0184:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0185:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0186:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0187:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0188:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0189:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0190:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0191:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0192:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0193:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0194:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0195:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0196:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0197:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0198:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0199:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0200:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0201:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0202:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0203:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0204:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0205:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0206:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0207:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0208:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0209:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0210:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0211:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0212:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0213:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0214:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0215:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0216:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0217:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0218:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0219:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0220:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0221:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0222:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0223:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0224:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0225:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0226:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0227:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0228:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0229:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0230:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0231:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0232:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0233:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0234:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0235:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0236:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0237:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0238:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0239:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0240:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0241:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0242:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0243:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0244:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0245:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0246:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0247:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0248:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0249:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0250:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0251:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0252:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0253:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0254:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0255:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0256:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0257:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0258:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0259:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0260:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0261:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0262:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0263:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0264:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0265:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0266:
+Runtime.freeMemory() = 60114328
+Runtime.totalMemory() = 62390272
+i:0267:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0268:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0269:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0270:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0271:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0272:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0273:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0274:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0275:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0276:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0277:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0278:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0279:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0280:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0281:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0282:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0283:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0284:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0285:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0286:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0287:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0288:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0289:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0290:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0291:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0292:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0293:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0294:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0295:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0296:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0297:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0298:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0299:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0300:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0301:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0302:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0303:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0304:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0305:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0306:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0307:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0308:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0309:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0310:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0311:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0312:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0313:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0314:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0315:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0316:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0317:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0318:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0319:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0320:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0321:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0322:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0323:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0324:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0325:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0326:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0327:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0328:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0329:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0330:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0331:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0332:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0333:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0334:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0335:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0336:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0337:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0338:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0339:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0340:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0341:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0342:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0343:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0344:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0345:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0346:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0347:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0348:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0349:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0350:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0351:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0352:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0353:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0354:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0355:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0356:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0357:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0358:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0359:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0360:
+Runtime.freeMemory() = 59789272
+Runtime.totalMemory() = 62390272
+i:0361:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0362:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0363:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0364:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0365:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0366:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0367:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0368:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0369:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0370:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0371:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0372:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0373:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0374:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0375:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0376:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0377:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0378:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0379:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0380:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0381:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0382:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0383:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0384:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0385:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0386:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0387:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0388:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0389:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0390:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0391:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0392:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0393:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0394:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0395:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0396:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0397:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0398:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0399:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0400:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0401:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0402:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0403:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0404:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0405:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0406:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0407:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0408:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0409:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0410:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0411:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0412:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0413:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0414:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0415:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0416:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0417:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0418:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0419:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0420:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0421:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0422:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0423:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0424:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0425:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0426:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0427:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0428:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0429:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0430:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0431:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0432:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0433:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0434:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0435:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0436:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0437:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0438:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0439:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0440:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0441:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0442:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0443:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0444:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0445:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0446:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0447:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0448:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0449:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0450:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0451:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0452:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0453:
+Runtime.freeMemory() = 59464216
+Runtime.totalMemory() = 62390272
+i:0454:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0455:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0456:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0457:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0458:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0459:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0460:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0461:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0462:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0463:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0464:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0465:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0466:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0467:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0468:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0469:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0470:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0471:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0472:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0473:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0474:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0475:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0476:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0477:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0478:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0479:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0480:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0481:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0482:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0483:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0484:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0485:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0486:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0487:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0488:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0489:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0490:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0491:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0492:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0493:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0494:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0495:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0496:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0497:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0498:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0499:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0500:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0501:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0502:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0503:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0504:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0505:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0506:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0507:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0508:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0509:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0510:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0511:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0512:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0513:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0514:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0515:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0516:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0517:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0518:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0519:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0520:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0521:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0522:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0523:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0524:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0525:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0526:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0527:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0528:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0529:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0530:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0531:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0532:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0533:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0534:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0535:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0536:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0537:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0538:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0539:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0540:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0541:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0542:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0543:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0544:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0545:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0546:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0547:
+Runtime.freeMemory() = 59139160
+Runtime.totalMemory() = 62390272
+i:0548:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0549:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0550:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0551:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0552:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0553:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0554:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0555:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0556:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0557:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0558:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0559:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0560:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0561:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0562:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0563:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0564:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0565:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0566:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0567:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0568:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0569:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0570:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0571:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0572:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0573:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0574:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0575:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0576:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0577:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0578:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0579:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0580:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0581:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0582:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0583:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0584:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0585:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0586:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0587:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0588:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0589:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0590:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0591:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0592:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0593:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0594:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0595:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0596:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0597:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0598:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0599:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0600:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0601:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0602:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0603:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0604:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0605:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0606:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0607:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0608:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0609:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0610:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0611:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0612:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0613:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0614:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0615:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0616:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0617:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0618:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0619:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0620:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0621:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0622:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0623:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0624:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0625:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0626:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0627:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0628:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0629:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0630:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0631:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0632:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0633:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0634:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0635:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0636:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0637:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0638:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0639:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0640:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0641:
+Runtime.freeMemory() = 58814104
+Runtime.totalMemory() = 62390272
+i:0642:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0643:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0644:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0645:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0646:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0647:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0648:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0649:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0650:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0651:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0652:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0653:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0654:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0655:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0656:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0657:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0658:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0659:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0660:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0661:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0662:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0663:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0664:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0665:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0666:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0667:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0668:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0669:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0670:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0671:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0672:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0673:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0674:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0675:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0676:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0677:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0678:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0679:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0680:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0681:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0682:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0683:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0684:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0685:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0686:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0687:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0688:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0689:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0690:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0691:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0692:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0693:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0694:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0695:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0696:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0697:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0698:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0699:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0700:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0701:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0702:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0703:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0704:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0705:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0706:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0707:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0708:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0709:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0710:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0711:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0712:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0713:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0714:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0715:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0716:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0717:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0718:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0719:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0720:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0721:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0722:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0723:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0724:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0725:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0726:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0727:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0728:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0729:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0730:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0731:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0732:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0733:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0734:
+Runtime.freeMemory() = 58489048
+Runtime.totalMemory() = 62390272
+i:0735:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0736:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0737:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0738:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0739:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0740:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0741:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0742:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0743:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0744:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0745:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0746:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0747:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0748:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0749:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0750:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0751:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0752:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0753:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0754:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0755:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0756:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0757:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0758:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0759:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0760:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0761:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0762:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0763:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0764:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0765:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0766:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0767:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0768:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0769:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0770:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0771:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0772:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0773:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0774:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0775:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0776:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0777:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0778:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0779:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0780:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0781:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0782:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0783:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0784:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0785:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0786:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0787:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0788:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0789:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0790:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0791:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0792:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0793:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0794:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0795:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0796:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0797:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0798:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0799:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0800:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0801:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0802:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0803:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0804:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0805:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0806:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0807:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0808:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0809:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0810:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0811:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0812:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0813:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0814:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0815:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0816:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0817:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0818:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0819:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0820:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0821:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0822:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0823:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0824:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0825:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0826:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0827:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0828:
+Runtime.freeMemory() = 58163992
+Runtime.totalMemory() = 62390272
+i:0829:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0830:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0831:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0832:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0833:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0834:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0835:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0836:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0837:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0838:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0839:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0840:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0841:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0842:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0843:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0844:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0845:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0846:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0847:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0848:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0849:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0850:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0851:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0852:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0853:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0854:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0855:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0856:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0857:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0858:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0859:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0860:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0861:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0862:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0863:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0864:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0865:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0866:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0867:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0868:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0869:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0870:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0871:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0872:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0873:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0874:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0875:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0876:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0877:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0878:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0879:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0880:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0881:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0882:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0883:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0884:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0885:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0886:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0887:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0888:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0889:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0890:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0891:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0892:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0893:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0894:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0895:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0896:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0897:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0898:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0899:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0900:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0901:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0902:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0903:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0904:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0905:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0906:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0907:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0908:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0909:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0910:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0911:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0912:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0913:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0914:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0915:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0916:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0917:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0918:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0919:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0920:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0921:
+Runtime.freeMemory() = 57838936
+Runtime.totalMemory() = 62390272
+i:0922:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0923:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0924:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0925:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0926:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0927:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0928:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0929:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0930:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0931:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0932:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0933:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0934:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0935:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0936:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0937:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0938:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0939:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0940:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0941:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0942:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0943:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0944:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0945:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0946:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0947:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0948:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0949:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0950:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0951:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0952:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0953:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0954:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0955:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0956:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0957:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0958:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0959:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0960:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0961:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0962:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0963:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0964:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0965:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0966:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0967:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0968:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0969:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0970:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0971:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0972:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0973:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0974:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0975:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0976:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0977:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0978:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0979:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0980:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0981:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0982:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0983:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0984:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0985:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0986:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0987:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0988:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0989:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0990:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0991:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0992:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0993:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0994:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0995:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0996:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0997:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0998:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+i:0999:
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
+Runtime.freeMemory() = 57513856
+Runtime.totalMemory() = 62390272
