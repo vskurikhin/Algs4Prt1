@@ -21,7 +21,11 @@ public class Algs4Prt18puzzle {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        StdOut.println("Hello world!");
+        String[] a = StdIn.readAllStrings();
+        Quick3waySrt.sort(a);
+        Quick3waySrt.show(a);
+        // QuickSrt.sort(a);
+        // QuickSrt.show(a);
     }
 }
 

@@ -32,6 +32,11 @@
  *  @author Kevin Wayne
  */
 public class Quick3waySrt {
+    private static int countPartition = 0;
+    private static int countSort = 0;
+    private static final String PREFIX = "Quick3waySrt";
+    private static final String SUFIX = "Q2";
+    private static final String EXT = ".txt";
 
     // This class should not be instantiated.
     private Quick3waySrt() { }
@@ -41,13 +46,20 @@ public class Quick3waySrt {
      * @param a the array to be sorted
      */
     public static void sort(Comparable[] a) {
-        StdRandom.shuffle(a);
+        String filename;
+        countPartition = 0;
+        countSort = 0;
+        // StdRandom.shuffle(a);
+        filename = String.format(PREFIX + ".countSort%d." + SUFIX + EXT,
+                                 countSort);
+        showOut(a, filename);
         sort(a, 0, a.length - 1);
         assert isSorted(a);
     }
 
     // quicksort the subarray a[lo .. hi] using 3-way partitioning
     private static void sort(Comparable[] a, int lo, int hi) { 
+        String filename;
         if (hi <= lo) return;
         int lt = lo, gt = hi;
         Comparable v = a[lo];
@@ -58,10 +70,23 @@ public class Quick3waySrt {
             else if (cmp > 0) exch(a, i, gt--);
             else              i++;
         }
+        countPartition++;
+        filename = String.format(PREFIX + ".countPartition%d." + SUFIX + EXT,
+                                 countPartition);
+        showOut(a, filename);
 
         // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi]. 
         sort(a, lo, lt-1);
+        countSort++;
+        filename = String.format(PREFIX + ".countSort%d." + SUFIX + EXT,
+                                 countSort);
+        showOut(a, filename);
+
         sort(a, gt+1, hi);
+        countSort++;
+        filename = String.format(PREFIX + ".countSort%d." + SUFIX + EXT,
+                                 countSort);
+        showOut(a, filename);
         assert isSorted(a, lo, hi);
     }
 
@@ -105,12 +130,38 @@ public class Quick3waySrt {
 
 
     // print array to standard output
-    private static void show(Comparable[] a) {
+    public static void show(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
             StdOut.println(a[i]);
         }
     }
 
+    // print array to standard output
+    private static void showOut(Comparable[] a, String filename) {
+        boolean trigger = false;
+        Out out = new Out(filename);
+        if (a.length > 0) {
+            out.print(a[0]);
+            trigger = true;
+        }
+        for (int i = 1; i < a.length; i++) {
+            out.print(" " + a[i]);
+            trigger = true;
+        }
+        if (trigger) {
+            out.println();
+        }
+        out.close();
+    }
+
+    private static void showOutln(Comparable[] a, String filename) {
+        Out out = new Out(filename);
+        for (int i = 0; i < a.length; i++) {
+            out.println(a[i]);
+        }
+        out.close();
+    }
+    
     /**
      * Reads in a sequence of strings from standard input; 3-way
      * quicksorts them; and prints them to standard output in ascending order. 
@@ -122,3 +173,7 @@ public class Quick3waySrt {
     }
 
 }
+
+/* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et
+ */
+//EOF
