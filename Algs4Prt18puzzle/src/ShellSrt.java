@@ -39,10 +39,14 @@
  *  @author Kevin Wayne
  */
 public class ShellSrt {
+    private static int countPhase = 0;
+    // private static int countSort = 0;
+    private static final String PREFIX = "ShellSrt";
+    private static final String SUFIX = "Q2";
+    private static final String EXT = ".txt";
 
     // This class should not be instantiated.
     private ShellSrt() { }
-    private static final String SUFIX = "L1";
 
     /**
      * Rearranges the array in ascending order, using the natural order.
@@ -62,27 +66,36 @@ public class ShellSrt {
 
         while (h >= 1) {
             c1++; c++;
+            /*
             filename = String.format("ShellSrt.sort." + SUFIX 
                                      + ".c_%05d_c1_%d.c2_%d.c3_%d.txt", 
                                      c, c1, c2, c3);
             showOut(a, filename);
+            */
             // h-sort the array
             for (int i = h; i < N; i++) {
                 c2++; c++;
+                /*
                 filename = String.format("ShellSrt.sort." + SUFIX 
                                          + ".c_%05d_c1_%d.c2_%d.c3_%d.txt", 
                                          c, c1, c2, c3);
                 showOut(a, filename);
+                */
                 for (int j = i; j >= h && less(a[j], a[j-h]); j -= h) {
                     c3++; c++;
                     exch(a, j, j-h);
                     // StdOut.printf("c: %d; h: %d; i: %d; j: %d\n", c, h, i, j);
+                    /*
                     filename = String.format("ShellSrt.sort." + SUFIX 
                                              + ".c_%05d_c1_%d.c2_%d.c3_%d.txt", 
                                              c, c1, c2, c3);
                     showOut(a, filename);
+                    */
                 }
             }
+            filename = String.format(PREFIX + ".countPhase%d." + "h%d."
+                                     + SUFIX + EXT, countPhase, h);
+            showOut(a, filename);
             assert isHsorted(a, h); 
             h /= 3;
         }
