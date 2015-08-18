@@ -33,6 +33,10 @@
  *  @author Kevin Wayne
  */
 public class MergeSrt {
+    private static int countSort = 0;
+    private static final String PREFIX = "MergeSrt";
+    private static final String SUFIX = "Q1";
+    private static final String EXT = ".txt";
 
     // This class should not be instantiated.
     private MergeSrt() { }
@@ -63,11 +67,16 @@ public class MergeSrt {
 
     // mergesort a[lo..hi] using auxiliary array aux[lo..hi]
     private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi) {
+        String filename;
         if (hi <= lo) return;
         int mid = lo + (hi - lo) / 2;
         sort(a, aux, lo, mid);
         sort(a, aux, mid + 1, hi);
         merge(a, aux, lo, mid, hi);
+        countSort++;
+        filename = String.format(PREFIX + ".countSort%d." + SUFIX + EXT,
+                                 countSort);
+        showOutln(a, filename);
     }
 
     /**
@@ -160,12 +169,38 @@ public class MergeSrt {
     }
 
     // print array to standard output
-    private static void show(Comparable[] a) {
+    public static void show(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
             StdOut.println(a[i]);
         }
     }
 
+    // print array to standard output
+    private static void showOut(Comparable[] a, String filename) {
+        boolean trigger = false;
+        Out out = new Out(filename);
+        if (a.length > 0) {
+            out.print(a[0]);
+            trigger = true;
+        }
+        for (int i = 1; i < a.length; i++) {
+            out.print(" " + a[i]);
+            trigger = true;
+        }
+        if (trigger) {
+            out.println();
+        }
+        out.close();
+    }
+
+    private static void showOutln(Comparable[] a, String filename) {
+        Out out = new Out(filename);
+        for (int i = 0; i < a.length; i++) {
+            out.println(a[i]);
+        }
+        out.close();
+    }
+    
     /**
      * Reads in a sequence of strings from standard input; mergesorts them; 
      * and prints them to standard output in ascending order. 

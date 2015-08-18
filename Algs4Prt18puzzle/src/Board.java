@@ -29,21 +29,59 @@ public class Board {
     // board dimension N
     public int dimension() { return N; }
 
+    private boolean wrongPosition(int i, int j) {
+        return this.blocks[i][j] != ((N * i + j + 1) % (N*N));
+    }
+
+    private boolean notZeroWrongPosition(int i, int j) {
+        if (0 == this.blocks[i][j])
+            return false;
+        return wrongPosition(i, j);
+    }
+
     // number of blocks out of place
     public int hamming() {
-        return 0;
+        int result = 0;
+        /* debug
+        int n = 0;
+         */
+        for (int i = 0; i < N; ++i)
+            for (int j = 0; j < N; ++j)
+                if (notZeroWrongPosition(i, j)) {
+                    /* debug
+                    StdOut.printf("this.blocks[%d][%d] == %d != (%d %% 9)\n",
+                                  i, j, this.blocks[i][j], (n % 9));
+                    */
+                    result++;
+                }
+        return result;
     }
 
     // sum of Manhattan distances between blocks and goal
     public int manhattan() {
-        return 0;
+        int result = 0;
+
+        for (int i = 0, n = 1; i < N; ++i)
+            for (int j = 0; j < N; ++j, n++)
+                if (notZeroWrongPosition(i, j)) {
+                   /* debug
+                   StdOut.printf("this.blocks[%d][%d] = %d:", 
+                                 i, j, this.blocks[i][j]);
+                   StdOut.printf(" row_move:%d", (this.blocks[i][j] - n) / N);
+                   StdOut.printf(" col_move:%d", (this.blocks[i][j] - n) % N);
+                   StdOut.println();
+                   */
+                   result += ( Math.abs((this.blocks[i][j] - n) / N)
+                              + Math.abs((this.blocks[i][j] - n) % N) );
+                }
+        return result;
     }
 
     // is this board the goal board?
     public boolean isGoal() {
         for (int i = 0, n = 1; i < N; ++i)
             for (int j = 0; j < N; ++j)
-                if (blocks[i][j] != (n++ % 9)) {
+                if (blocks[i][j] != (n++ % (N*N))) {
                     return false;
                 }
         return true;
@@ -74,6 +112,10 @@ public class Board {
 
     // does this board equal y?
     public boolean equals(Object y) {
+        if (y == this) return true;
+        if (y == null) return false;
+        if (y.getClass() != this.getClass())
+            return false;
         Board b = (Board)y;
         for (int i = 0; i < N; ++i)
             for (int j = 0; j < N; ++j) {
@@ -126,7 +168,7 @@ public class Board {
         }
 
         public boolean hasNext() {
-                return (neighbors.isEmpty() == false);
+            return (neighbors.isEmpty() == false);
         }
 
         public Board next() { return neighbors.dequeue(); }
@@ -178,9 +220,71 @@ public class Board {
         blocks[2][2] = 5;
         Board a = new Board(blocks);
         Board b = new Board(blocks);
+        b.blocks[1][1] = b.blocks[2][1];
+        b.blocks[2][1] = 0;
         Board c = new Board(blocks);
         c.blocks[1][1] = c.blocks[2][2];
         c.blocks[2][2] = 0;
+        blocks[0][0] = 0;
+        blocks[0][1] = 1;
+        blocks[0][2] = 3;
+        blocks[1][0] = 4;
+        blocks[1][1] = 2;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d00 = new Board(blocks);
+        blocks[0][0] = 1;
+        blocks[0][1] = 0;
+        blocks[0][2] = 3;
+        blocks[1][0] = 4;
+        blocks[1][1] = 2;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d10 = new Board(blocks);
+        blocks[0][0] = 4;
+        blocks[0][1] = 1;
+        blocks[0][2] = 3;
+        blocks[1][0] = 0;
+        blocks[1][1] = 2;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d11 = new Board(blocks);
+        blocks[0][0] = 0;
+        blocks[0][1] = 1;
+        blocks[0][2] = 3;
+        blocks[1][0] = 4;
+        blocks[1][1] = 2;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d20 = new Board(blocks);
+        blocks[0][0] = 1;
+        blocks[0][1] = 2;
+        blocks[0][2] = 3;
+        blocks[1][0] = 4;
+        blocks[1][1] = 0;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d21 = new Board(blocks);
+        blocks[0][0] = 1;
+        blocks[0][1] = 3;
+        blocks[0][2] = 0;
+        blocks[1][0] = 4;
+        blocks[1][1] = 2;
+        blocks[1][2] = 5;
+        blocks[2][0] = 7;
+        blocks[2][1] = 8;
+        blocks[2][2] = 6;
+        Board d22 = new Board(blocks);
         StdOut.println("Board a:");
         StdOut.println(a.toString());
         StdOut.println("Board b:");
@@ -206,6 +310,14 @@ public class Board {
         if (g.isGoal()) {
             StdOut.println("Yes, g it's goal.");
         }
+        StdOut.println("a.hamming():");
+        a.hamming();
+        StdOut.println("b.hamming():");
+        b.hamming();
+        StdOut.println("c.hamming():");
+        c.hamming();
+        StdOut.println("g.hamming():");
+        g.hamming();
 
         StdOut.println("Board a:");
         StdOut.println(a.toString());
@@ -218,6 +330,36 @@ public class Board {
                            e.blocks[e.zero.i][e.zero.j]);
             StdOut.println();
         }
+        /*
+        StdOut.println("a.manhattan():");
+        a.manhattan();
+        StdOut.println("b.manhattan():");
+        b.manhattan();
+        StdOut.println("c.manhattan():");
+        c.manhattan();
+        StdOut.println("g.manhattan():");
+        g.manhattan();
+        */
+        StdOut.printf("a.hamming(): %d\n", a.hamming());
+        StdOut.printf("b.hamming(): %d\n", b.hamming());
+        StdOut.printf("c.hamming(): %d\n", c.hamming());
+        StdOut.printf("g.hamming(): %d\n", g.hamming());
+
+        StdOut.printf("a.manhattan(): %d\n", a.manhattan());
+        StdOut.printf("b.manhattan(): %d\n", b.manhattan());
+        StdOut.printf("c.manhattan(): %d\n", c.manhattan());
+        StdOut.printf("g.manhattan(): %d\n", g.manhattan());
+
+        StdOut.printf("d00.hamming(): %d\n",    d00.hamming());
+        StdOut.printf("d00.manhattan(): %d\n",  d00.manhattan());
+        StdOut.printf("d10.hamming(): %d\n",    d10.hamming());
+        StdOut.printf("d10.manhattan(): %d\n",  d10.manhattan());
+        StdOut.printf("d11.hamming(): %d\n",    d11.hamming());
+        StdOut.printf("d11.manhattan(): %d\n",  d11.manhattan());
+        StdOut.printf("d21.hamming(): %d\n",    d21.hamming());
+        StdOut.printf("d21.manhattan(): %d\n",  d21.manhattan());
+        StdOut.printf("d22.hamming(): %d\n",    d22.hamming());
+        StdOut.printf("d22.manhattan(): %d\n",  d22.manhattan());
     }
 }
 
