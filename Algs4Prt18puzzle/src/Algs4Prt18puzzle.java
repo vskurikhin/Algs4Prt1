@@ -28,7 +28,6 @@ public class Algs4Prt18puzzle {
             for (int j = 0; j < N; j++)
                 blocks[i][j] = in.readInt();
         Board initial = new Board(blocks);
-
         // solve the puzzle
         Solver solver = new Solver(initial);
 
@@ -39,6 +38,8 @@ public class Algs4Prt18puzzle {
             StdOut.println("Minimum number of moves = " + solver.moves());
             for (Board board : solver.solution())
                 StdOut.println(board);
+            StdOut.printf("hamming(): %d\n",    initial.hamming());
+            StdOut.printf("manhattan(): %d\n",  initial.manhattan());
         }
         /*
         RedBlackBSTdbg<String, Integer> st = new RedBlackBSTdbg<String, Integer>();

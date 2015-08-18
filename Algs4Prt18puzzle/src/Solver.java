@@ -1,5 +1,9 @@
 import java.util.Comparator;
 import java.util.Iterator;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.MinPQ;
+import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * <b>Best-first search</b>. Now, we describe a solution to the problem that
@@ -136,8 +140,6 @@ public class Solver {
                 solution.push(curr.board);
                 curr = curr.prev;
             }
-            // if (curr != null)
-            //    solution.push(curr.board);
         }
         public boolean hasNext() {
             return (!solution.isEmpty());

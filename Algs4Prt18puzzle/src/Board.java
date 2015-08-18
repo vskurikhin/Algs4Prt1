@@ -1,4 +1,6 @@
 import java.util.Iterator;
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * <b>We make a key observatioi</b>: To solve the puzzle from a given search
@@ -104,9 +106,9 @@ public class Board {
      */
     public int manhattan() {
         int result = 0;
-
-        for (int i = 0, n = 1; i < this.N; ++i)
-            for (int j = 0; j < this.N; ++j)
+        // int n = 1;
+        for (int i = 0; i < this.N; ++i)
+            for (int j = 0; j < this.N; ++j) {
                 if (notZeroWrongPosition(i, j)) {
                    /* debug
                    StdOut.printf("this.blocks[%d][%d] = %d:", 
@@ -115,9 +117,19 @@ public class Board {
                    StdOut.printf(" col_move:%d", (this.blocks[i][j] - n) % N);
                    StdOut.println();
                    */
-                   result += Math.abs((this.blocks[i][j] - n) / this.N);
-                   result += Math.abs((this.blocks[i][j] - n) % this.N);
+                   // result += Math.abs((this.blocks[i][j] - n) / this.N);
+                   // result += Math.abs((this.blocks[i][j] - n) % this.N);
+                   int colMove = this.blocks[i][j] % this.N;
+                   int rowMove = this.blocks[i][j] / this.N;
+                   if (colMove == 0) {
+                       colMove = this.N - 1;
+                       rowMove--;
+                   } else
+                       colMove--;
+                   result += Math.abs(rowMove - i) + Math.abs(colMove - j);
                 }
+                // n++;
+            }
         return result;
     }
 
@@ -400,7 +412,7 @@ public class Board {
         StdOut.printf("d21.manhattan(): %d\n",  d21.manhattan());
         StdOut.printf("d22.hamming(): %d\n",    d22.hamming());
         StdOut.printf("d22.manhattan(): %d\n",  d22.manhattan());
-        */
+    */
     }
 }
 
