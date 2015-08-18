@@ -1,55 +1,40 @@
 import java.util.Comparator;
 import java.util.Iterator;
 
+/**
+ * <b>Best-first search</b>. Now, we describe a solution to the problem that
+ * illustrates a general artificial intelligence methodology known as the
+ * <a href=
+ * "http://en.wikipedia.org/wiki/A*_search_algorithm">A* search algorithm</a>.
+ * We define a search node of the game to be a board, the number of moves made
+ * to reach the board, and the previous search node. First, insert the initial
+ * search node (the initial board, 0 moves, and a null previous search node)
+ * into a priority queue. Then, delete from the priority queue the search node
+ * with the minimum priority, and insert onto the priority queue all
+ * neighboring search nodes (those that can be reached in one move from
+ * the dequeued search node). Repeat this procedure until the search node
+ * dequeued corresponds to a goal board. The success of this approach hinges
+ * on the choice of <i>priority function</i> for a search node. We consider
+ * two priority functions:
+ */
+
 public class Solver {
 
     // private Board board;
     private int moves;
     private SearchNode lastNode;
 
+    // helper search node data type
     private class SearchNode {
-        public Board board;
-        public int moves;
-        public SearchNode prev;
-    }
-
-    private class SearchNodeCmp implements Comparator<SearchNode> {
-        public int compare(SearchNode a, SearchNode b) {
-            int aPri = a.board.manhattan() + a.moves;
-            int bPri = b.board.manhattan() + b.moves;
-            // return (aPri - bPri);
-            if (aPri < bPri)
-                return -1;
-            if (aPri > bPri)
-                return 1;
-            return 0;
-        }
-    }
-
-    private MinPQ<SearchNode> initNodes(Board b) {
-        SearchNodeCmp snCmp = new SearchNodeCmp();
-        MinPQ<SearchNode> snpq = new MinPQ<>(1, snCmp);
-        SearchNode sn = new SearchNode();
-        sn.board = b;
-        sn.moves = 0;
-        sn.prev = null;
-        snpq.insert(sn);
-        return snpq;
-    }
-
-    private void addNeighbors(MinPQ<SearchNode> nodes, SearchNode currNode) {
-        for (Board e : currNode.board.neighbors()) {
-            if (currNode.prev == null || !e.equals(currNode.prev.board)) {
-                SearchNode neighborNode = new SearchNode();
-                neighborNode.board = e;
-                neighborNode.moves = currNode.moves + 1;
-                neighborNode.prev = currNode;
-                nodes.insert(neighborNode);
-            }
-        }
+        private Board board;
+        private int moves;
+        private SearchNode prev;
     }
 
     // find a solution to the initial board (using the A* algorithm)
+    /**
+     * @param initial
+     */
     public Solver(Board initial) {
         if (initial == null)
           throw new java.lang.NullPointerException();
@@ -75,6 +60,63 @@ public class Solver {
         }
     }
 
+    private class SearchNodeCmp implements Comparator<SearchNode> {
+        /**
+         * @param a a search node
+         * @param b a search node
+         * @return -1, 0 or 1 <=>
+         */
+        public int compare(SearchNode a, SearchNode b) {
+            int aPri = a.board.manhattan() + a.moves;
+            int bPri = b.board.manhattan() + b.moves;
+            // return (aPri - bPri);
+            if (aPri < bPri)
+                return -1;
+            if (aPri > bPri)
+                return 1;
+            return 0;
+        }
+    }
+
+    /**
+     * @param b a Board
+     * @return MinPQ of search node
+     */
+    private MinPQ<SearchNode> initNodes(Board b) {
+        SearchNodeCmp snCmp = new SearchNodeCmp();
+        MinPQ<SearchNode> snpq = new MinPQ<SearchNode>(1, snCmp);
+        SearchNode sn = new SearchNode();
+        sn.board = b;
+        sn.moves = 0;
+        sn.prev = null;
+        snpq.insert(sn);
+        return snpq;
+    }
+
+    /**
+     * @param nodes
+     * @param currNode
+     */
+    private void addNeighbors(MinPQ<SearchNode> nodes, SearchNode currNode) {
+        for (Board e : currNode.board.neighbors()) {
+            /**
+             * A critical optimization. Best-first search has one annoying
+             * feature: search nodes corresponding to the same board are
+             * enqueued on the priority queue many times. To reduce unnecessary
+             * exploration of useless search nodes, when considering
+             * the neighbors of a search node, don't enqueue a neighbor if its
+             * board is the same as the board of the previous search node.
+             */
+            if (currNode.prev == null || !e.equals(currNode.prev.board)) {
+                SearchNode neighborNode = new SearchNode();
+                neighborNode.board = e;
+                neighborNode.moves = currNode.moves + 1;
+                neighborNode.prev = currNode;
+                nodes.insert(neighborNode);
+            }
+        }
+    }
+
     // is the initial board solvable?
     public boolean isSolvable() {
         return (this.moves != -1);
@@ -90,10 +132,12 @@ public class Solver {
         private SolutionItr() {
             solution = new Stack<Board>();
             SearchNode curr = lastNode;
-            while (curr.prev != null) {
+            while (curr != null) {
                 solution.push(curr.board);
                 curr = curr.prev;
             }
+            // if (curr != null)
+            //    solution.push(curr.board);
         }
         public boolean hasNext() {
             return (!solution.isEmpty());
@@ -101,7 +145,7 @@ public class Solver {
         public Board next() {
             return solution.pop();
         }
-        public void remove() {}
+        public void remove() { }
     }
 
     private class SolutionIterable implements Iterable<Board> {

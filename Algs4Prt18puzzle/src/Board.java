@@ -1,19 +1,40 @@
 import java.util.Iterator;
 
+/**
+ * <b>We make a key observatioi</b>: To solve the puzzle from a given search
+ * node on the priority queue, the total number of moves we need to make
+ * (including those already made) is at least its priority, using either
+ * the Hamming or Manhattan priority function. (For Hamming priority, this
+ * is true because each block that is out of place must move at least once
+ * to reach its goal position. For Manhattan priority, this is true because
+ * each block must move its Manhattan distance from its goal position.
+ * Note that we do not count the blank square when computing the Hamming or
+ * Manhattan priorities.) Consequently, when the goal board is dequeued, we
+ * have discovered not only a sequence of moves from the initial board to
+ * the goal board, but one that makes the fewest number of moves.
+ * (Challenge for the mathematically inclined: prove this fact.)
+ */
 public class Board {
     private int[][] blocks;
     private int N;
 
+    // helper Zero position on board data type
     private class Zero {
-        public int i;
-        public int j;
-        public Zero(int row, int col) { i = row; j = col; }
+        private int i;
+        private int j;
+        public Zero(int row, int col) { 
+          i = row;
+          j = col;
+        }
     }
 
     private Zero zero;
 
-    // construct a board from an N-by-N array of blocks
-    // (where blocks[i][j] = block in row i, column j)
+    /**
+     * construct a board from an N-by-N array of blocks
+     * (where blocks[i][j] = block in row i, column j)
+     * @param blocks an array of board combination
+     */
     public Board(int[][] blocks) {
         N = blocks.length;
         this.blocks = new int[N][N];
@@ -27,19 +48,36 @@ public class Board {
     }
 
     // board dimension N
-    public int dimension() { return N; }
+    public int dimension() { return this.N; }
 
+    /**
+     * @param i a row position
+     * @param j a col position
+     * @return true if element on position i,j is wrong
+     */
     private boolean wrongPosition(int i, int j) {
-        return this.blocks[i][j] != ((N * i + j + 1) % (N*N));
+        return this.blocks[i][j] != ((this.N * i + j + 1) % (this.N*this.N));
     }
 
+    /**
+     * @param i a row position
+     * @param j a col position
+     * @return true if element on position i,j is wrong and not zero
+     */
     private boolean notZeroWrongPosition(int i, int j) {
         if (0 == this.blocks[i][j])
             return false;
         return wrongPosition(i, j);
     }
 
-    // number of blocks out of place
+    /**
+     * <i>Hamming priority function</i>. The number of blocks in the wrong
+     * position, plus the number of moves made so far to get to the search
+     * node. Intuitively, a search node with a small number of blocks in
+     * the wrong position is close to the goal, and we prefer a search node
+     * that have been reached using a small number of moves.
+     * @return hamming priority (number of blocks out of place)
+     */
     public int hamming() {
         int result = 0;
         /* debug
@@ -57,12 +95,18 @@ public class Board {
         return result;
     }
 
-    // sum of Manhattan distances between blocks and goal
+    /**
+     * <i>Manhattan priority function</i>. The sum of the Manhattan distances
+     * (sum of the vertical and horizontal distance) from the blocks to their
+     * goal positions, plus the number of moves made so far to get to the
+     * search node.
+     * @return sum of Manhattan distances between blocks and goal
+     */
     public int manhattan() {
         int result = 0;
 
-        for (int i = 0, n = 1; i < N; ++i)
-            for (int j = 0; j < N; ++j, n++)
+        for (int i = 0, n = 1; i < this.N; ++i)
+            for (int j = 0; j < this.N; ++j)
                 if (notZeroWrongPosition(i, j)) {
                    /* debug
                    StdOut.printf("this.blocks[%d][%d] = %d:", 
@@ -71,19 +115,22 @@ public class Board {
                    StdOut.printf(" col_move:%d", (this.blocks[i][j] - n) % N);
                    StdOut.println();
                    */
-                   result += ( Math.abs((this.blocks[i][j] - n) / N)
-                              + Math.abs((this.blocks[i][j] - n) % N) );
+                   result += Math.abs((this.blocks[i][j] - n) / this.N);
+                   result += Math.abs((this.blocks[i][j] - n) % this.N);
                 }
         return result;
     }
 
     // is this board the goal board?
     public boolean isGoal() {
-        for (int i = 0, n = 1; i < N; ++i)
-            for (int j = 0; j < N; ++j)
-                if (blocks[i][j] != (n++ % (N*N))) {
+        int n = 1;
+        for (int i = 0; i < this.N; ++i)
+            for (int j = 0; j < this.N; ++j) {
+                if (blocks[i][j] != (n % (this.N*this.N))) {
                     return false;
                 }
+                n++;
+            }
         return true;
     }
 
@@ -92,10 +139,10 @@ public class Board {
     public Board twin() {
         Board twin = new Board(this.blocks);
         while (true) {
-            int i = StdRandom.uniform(N);
-            int j = StdRandom.uniform(N);
+            int i = StdRandom.uniform(this.N);
+            int j = StdRandom.uniform(this.N);
             int k = j;
-            if (j == N - 1) {
+            if (j == this.N - 1) {
                 --k;
             } else {
                 ++k;
@@ -116,9 +163,11 @@ public class Board {
         if (y == null) return false;
         if (y.getClass() != this.getClass())
             return false;
-        Board b = (Board)y;
-        for (int i = 0; i < N; ++i)
-            for (int j = 0; j < N; ++j) {
+        Board b = (Board) y;
+        if (b.dimension() != this.N)
+            return false;
+        for (int i = 0; i < this.N; ++i)
+            for (int j = 0; j < this.N; ++j) {
                 if (this.blocks[i][j] != b.blocks[i][j])
                     return false;
             }
@@ -127,20 +176,6 @@ public class Board {
 
     private class NeighborIterator implements Iterator<Board> {
         private Queue<Board> neighbors;
-
-        private void moveZero(Zero newZero) {
-            Board b = new Board(blocks);
-            /*
-            StdOut.print("NeighborIterator::moveZero:: ");
-            StdOut.printf("zero.i = %d, zero.j = %d" + 
-                          ", newZero.i = %d, newZero.j = %d\n",
-                          zero.i, zero.j, newZero.i, newZero.j); */
-            b.blocks[zero.i][zero.j] = b.blocks[newZero.i][newZero.j];
-            b.blocks[newZero.i][newZero.j] = 0;
-            b.zero.i = newZero.i;
-            b.zero.j = newZero.j;
-            neighbors.enqueue(b);
-        }
 
         public NeighborIterator() {
             neighbors = new Queue<Board>();
@@ -167,8 +202,22 @@ public class Board {
             }
         }
 
+        private void moveZero(Zero newZero) {
+            Board b = new Board(blocks);
+            /* debug
+            StdOut.print("NeighborIterator::moveZero:: ");
+            StdOut.printf("zero.i = %d, zero.j = %d" + 
+                          ", newZero.i = %d, newZero.j = %d\n",
+                          zero.i, zero.j, newZero.i, newZero.j); */
+            b.blocks[zero.i][zero.j] = b.blocks[newZero.i][newZero.j];
+            b.blocks[newZero.i][newZero.j] = 0;
+            b.zero.i = newZero.i;
+            b.zero.j = newZero.j;
+            neighbors.enqueue(b);
+        }
+
         public boolean hasNext() {
-            return (neighbors.isEmpty() == false);
+            return (!neighbors.isEmpty());
         }
 
         public Board next() { return neighbors.dequeue(); }
@@ -193,10 +242,10 @@ public class Board {
     // (in the output format specified below)
     public String toString() {
         String result = new String();
-        result += N + "\n";
-        for (int i = 0; i < N; ++i) {
+        result += this.N + "\n";
+        for (int i = 0; i < this.N; ++i) {
             int j;
-            for (j = 0; j < N - 1; ++j) {
+            for (j = 0; j < this.N - 1; ++j) {
                 result += blocks[i][j] + " ";
             }
             result += this.blocks[i][j] + "\n";
@@ -206,6 +255,7 @@ public class Board {
 
     // unit tests (not graded)
     public static void main(String[] args) {
+        /*
         StdRandom.setSeed(System.currentTimeMillis());
         int N = 3;
         int[][] blocks = new int[N][N];
@@ -330,16 +380,6 @@ public class Board {
                            e.blocks[e.zero.i][e.zero.j]);
             StdOut.println();
         }
-        /*
-        StdOut.println("a.manhattan():");
-        a.manhattan();
-        StdOut.println("b.manhattan():");
-        b.manhattan();
-        StdOut.println("c.manhattan():");
-        c.manhattan();
-        StdOut.println("g.manhattan():");
-        g.manhattan();
-        */
         StdOut.printf("a.hamming(): %d\n", a.hamming());
         StdOut.printf("b.hamming(): %d\n", b.hamming());
         StdOut.printf("c.hamming(): %d\n", c.hamming());
@@ -360,6 +400,7 @@ public class Board {
         StdOut.printf("d21.manhattan(): %d\n",  d21.manhattan());
         StdOut.printf("d22.hamming(): %d\n",    d22.hamming());
         StdOut.printf("d22.manhattan(): %d\n",  d22.manhattan());
+        */
     }
 }
 
