@@ -1,9 +1,11 @@
+/* Solver.java */
+
 import java.util.Comparator;
 import java.util.Iterator;
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.MinPQ;
-import edu.princeton.cs.algs4.Stack;
-import edu.princeton.cs.algs4.StdOut;
+// import edu.princeton.cs.algs4.In;
+// import edu.princeton.cs.algs4.MinPQ;
+// import edu.princeton.cs.algs4.Stack;
+// import edu.princeton.cs.algs4.StdOut;
 
 /**
  * <b>Best-first search</b>. Now, we describe a solution to the problem that
@@ -47,19 +49,40 @@ public class Solver {
         this.lastNode = null;
 
         MinPQ<SearchNode> nodes = initNodes(initial);
+        /**
+         * <b>Detecting unsolvable puzzles<B>.
+         * Not all initial boards can lead to the goal board by a sequence of
+         * legal moves.
+         */
+        MinPQ<SearchNode> twins = initNodes(initial.twin());
 
         while (!nodes.isEmpty()) {
             SearchNode next = nodes.delMin();
-            /* debug
-            StdOut.println("Solver delMin():");
-            StdOut.println(next.board);
-            */
+            SearchNode twin = twins.delMin();
             if (next.board.isGoal()) {
                 this.lastNode = next;
                 this.moves = next.moves;
                 return;
+            } else
+            /**
+             * <b>Detecting unsolvable puzzles<B>.
+             * To detect such situations, use the fact that boards are divided
+             * into two equivalence classes with respect to reachability: 
+             * (i) those that lead to the goal board and
+             * (ii) those that lead to the goal board if we modify the initial
+             * board by swapping any pair of adjacent (non-blank) blocks in
+             * the same row.
+             */
+            if (twin.board.isGoal()) {
+                this.lastNode = new SearchNode();
+                this.lastNode.board = initial;
+                this.lastNode.moves = -1;
+                this.lastNode.prev = null;
+                this.moves = -1;
+                return;
             } else {
                 addNeighbors(nodes, next);
+                addNeighbors(twins, twin);
             }
         }
     }
@@ -131,6 +154,8 @@ public class Solver {
         return this.moves;
     }
 
+    // private class SolutionItrtr implements Iterator<Board> {
+    // private class SolutionItrbl implements Iterable<Board> {
     private class SolutionItr implements Iterator<Board> {
         private Stack<Board> solution;
         private SolutionItr() {
@@ -150,7 +175,7 @@ public class Solver {
         public void remove() { }
     }
 
-    private class SolutionIterable implements Iterable<Board> {
+    private class SolutionItrbl implements Iterable<Board> {
         public Iterator<Board> iterator() {
             return new SolutionItr();
         }
@@ -160,7 +185,7 @@ public class Solver {
     public Iterable<Board> solution() {
         if (!isSolvable())
             return null;
-        return new SolutionIterable();
+        return new SolutionItrbl();
     }
 
     // solve a slider puzzle (given below)
@@ -187,3 +212,7 @@ public class Solver {
         }
     }
 }
+
+/* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et
+ */
+//EOF
