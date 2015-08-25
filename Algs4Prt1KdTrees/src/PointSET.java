@@ -76,3 +76,14 @@ public class PointSET {
 /* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et
  */
 //EOF
+/*
+    private final SET<Point2D> set = new SET<Point2D>();
+    public PointSET() {
+    public boolean isEmpty() {
+    public int size() {
+    public void insert(Point2D p) {
+    public boolean contains(Point2D p) {
+    public void draw() {
+    public Iterable<Point2D> range(RectHV rect) {
+    public Point2D nearest(Point2D p) {
+*/
