@@ -50,6 +50,7 @@ public class Algs4Prt1KdTrees {
         StdOut.println(q.equals(nearest));
 */
         // TODO code application logic here
+        /*
         Pattern p0 = Pattern.compile("^\\s*");
         Pattern p1 = Pattern.compile("\\s+");
         KdTree kdt = new KdTree();
@@ -67,9 +68,14 @@ public class Algs4Prt1KdTrees {
         for (Point2D p : kdt.range(rect)) {
             StdOut.println(p.toString());
         }
+<<<<<<< HEAD
         Point2D nearest = kdt.nearest(new Point2D(2.0, 1.0));
         StdOut.printf("== %s\n", nearest);
 /*
+=======
+        */
+
+>>>>>>> a0a3cbcb85446be64f360ed457a3714b6f77acaf
         String filename = args[0];
         In in = new In(filename);
 
@@ -112,7 +118,10 @@ public class Algs4Prt1KdTrees {
             StdDraw.show(0);
             StdDraw.show(40);
         }
+<<<<<<< HEAD
         */
+=======
+>>>>>>> a0a3cbcb85446be64f360ed457a3714b6f77acaf
     }
 }
 

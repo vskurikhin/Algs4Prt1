@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 /* _unless_ */
+=======
+>>>>>>> a0a3cbcb85446be64f360ed457a3714b6f77acaf
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.RectHV;
 import edu.princeton.cs.algs4.SET;
 import edu.princeton.cs.algs4.StdDraw;
+<<<<<<< HEAD
 /* _endunless_ */
+=======
+>>>>>>> a0a3cbcb85446be64f360ed457a3714b6f77acaf
 
 public class PointSET {
     private final SET<Point2D> set = new SET<Point2D>();
@@ -85,4 +91,8 @@ public class PointSET {
         }
         return nearest;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a0a3cbcb85446be64f360ed457a3714b6f77acaf
