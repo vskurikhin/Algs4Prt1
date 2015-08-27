@@ -1,89 +1,88 @@
-/* PointSET.java */
-
-import java.util.Iterator;
+/* _unless_ */
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.Point2D;
+import edu.princeton.cs.algs4.RectHV;
+import edu.princeton.cs.algs4.SET;
+import edu.princeton.cs.algs4.StdDraw;
+/* _endunless_ */
 
 public class PointSET {
-    // construct an empty set of points
-    public PointSET() { }
+    private final SET<Point2D> set = new SET<Point2D>();
 
-    // is the set empty?
+    /*
+     * construct an empty set of points
+     */
+    public PointSET() {
+    }
+
+    /*
+     * is the set empty?
+     */
     public boolean isEmpty() {
-        return true;
+        return set.isEmpty();
     }
 
-    // number of points in the set
+    /*
+     * number of points in the set
+     */
     public int size() {
-        return 0;
+        return set.size();
     }
 
-    // add the point to the set (if it is not already in the set)
+    /*
+     * add the point p to the set (if it is not already in the set)
+     */
     public void insert(Point2D p) {
-
+        if (set.contains(p)) {
+            return;
+        }
+        set.add(p);
     }
 
-    // does the set contain point p?
+    /*
+     * does the set contain the point p?
+     */
     public boolean contains(Point2D p) {
-        return false;
+        return set.contains(p);
     }
 
-
-    // draw all points to standard draw
+    /*
+     * draw all of the points to standard draw
+     */
     public void draw() {
-    }
-
-    private class Point2DItrtr implements Iterator<Point2D> {
-        // private Queue<Point2D> q;
-
-        public Point2DItrtr() {
-            // q = new Queue<Point2D>();
-        }
-
-        public boolean hasNext() {
-            // return (!q.isEmpty());
-            return false;
-        }
-
-        public Point2D next() { return null; }
-
-        public void remove() { }
-    }
-
-    // all neighboring boards
-    private class Point2DItrbl implements Iterable<Point2D> {
-        public Iterator<Point2D> iterator() {
-            Point2DItrtr iter = new Point2DItrtr();
-            return iter;
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.setPenRadius(.01);
+        for (Point2D p : set) {
+            p.draw();
         }
     }
 
-    // all points that are inside the rectangle
+    /*
+     * all points in the set that are inside the rectangle
+     */
     public Iterable<Point2D> range(RectHV rect) {
-        Iterable<Point2D> iter = new Point2DItrbl();
-        return iter;
+        Queue<Point2D> queue = new Queue<Point2D>();
+        for (Point2D p : set) {
+            if (rect.contains(p)) {
+                queue.enqueue(p);
+            }
+        }
+        return queue;
     }
 
-    // a nearest neighbor in the set to point p; null if the set is empty
+    /*
+     * a nearest neighbor in the set to p; null if set is empty
+     */
     public Point2D nearest(Point2D p) {
-        return null;
-    }
+        double distance = Double.MAX_VALUE;
+        Point2D nearest = null;
+        for (Point2D other : set) {
+            if (p.distanceTo(other) < distance) {
+                distance = p.distanceTo(other);
+                nearest = other;
+            }
 
-    // unit testing of the methods (optional)
-    public static void main(String[] args) {
-        return;
+        }
+        return nearest;
     }
 }
-
-/* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et
- */
-//EOF
-/*
-    private final SET<Point2D> set = new SET<Point2D>();
-    public PointSET() {
-    public boolean isEmpty() {
-    public int size() {
-    public void insert(Point2D p) {
-    public boolean contains(Point2D p) {
-    public void draw() {
-    public Iterable<Point2D> range(RectHV rect) {
-    public Point2D nearest(Point2D p) {
-*/
