@@ -4,12 +4,12 @@
  *
  */
 
-/* _unless_ */
+/* _unless_ 
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.RectHV;
 import edu.princeton.cs.algs4.StdDraw;
-/* _endunless_ */
+ _endunless_ */
 
 public class KdTree {
     // private Comparator<Point2D> oddComparator;
@@ -26,9 +26,9 @@ public class KdTree {
             this.left  = null;
             this.right = null;
             this.N = 1;
-/* _if_ 
+/* _if_ */
             StdOut.printf("new: Node p %s\n", p.toString());
- _endif_ */
+/* _endif_ */
         }
     }
 
@@ -59,9 +59,9 @@ public class KdTree {
         if (null == p)
             throw new NullPointerException();
         int level = -1;
-/* _if_ 
+/* _if_ */
         StdOut.printf("insert: level %d point %s\n", level, p.toString());
- _endif_ */
+/* _endif_ */
         root = put(root, p, -1);
     }
 
@@ -84,26 +84,26 @@ public class KdTree {
     private Node put(Node x, Point2D p, int level) {
         int l = level + 1;
         if (null == x) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("insert: level %d ", l);
- _endif_ */
+/* _endif_ */
             return new Node(p);
         }
         int cmp = compare2Points(x.p, p, l);
         if (cmp > 0) {
-/* _if_ 
+/* _if_ */
             StdOut.println("put: go left");
- _endif_ */
+/* _endif_ */
             x.left  = put(x.left,  p, l);
         } else if (cmp < 0) {
-/* _if_ 
+/* _if_ */
             StdOut.println("put: go right");
- _endif_ */
+/* _endif_ */
             x.right = put(x.right, p, l);
         } else {
-/* _if_ 
+/* _if_ */
             StdOut.println("put: hmm... equal?");
- _endif_ */
+/* _endif_ */
         }
         x.N = 1 + size(x.left) + size(x.right);
 
@@ -120,26 +120,26 @@ public class KdTree {
     private boolean contains(Node x, Point2D p, int level) {
         int l = level + 1;
         if (null == x) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("contains: level %d not found FALSE\n", l);
- _endif_ */
+/* _endif_ */
             return false;
         }
         int cmp = compare2Points(x.p, p, l);
         if (cmp > 0) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("contains: level %d go left\n", l);
- _endif_ */
+/* _endif_ */
             return contains(x.left,  p, l);
         } else if (cmp < 0) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("contains: level %d go right\n", l);
- _endif_ */
+/* _endif_ */
             return contains(x.right, p, l);
         } else {
-/* _if_ 
+/* _if_ */
             StdOut.printf("contains: level %d found TRUE\n", l);
- _endif_ */
+/* _endif_ */
             // equal?
             return p.equals(x.p);
         }
@@ -159,10 +159,10 @@ public class KdTree {
         if (null == x) return;
         int l = level + 1;
         if (rect.contains(x.p)) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("range: level %d contains %s\n",
                           l, x.p.toString());
- _endif_ */
+/* _endif_ */
             queue.enqueue(x.p);
             range(rect, queue, x.left,  l);
             range(rect, queue, x.right, l);
@@ -174,23 +174,23 @@ public class KdTree {
         int cmp_ru = compare2Points(x.p, ru, l);
         int cmp_lb = compare2Points(x.p, lb, l);
         if (cmp_ru > 0) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("range: level %d X go left x.p %s; ru %s\n",
                           l, x.p.toString(), ru.toString());
- _endif_ */
+/* _endif_ */
             cmp = 1; // go left
         } else if (cmp_lb < 0) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("range: level %d X go right x.p %s; lb %s\n",
                           l, x.p.toString(), lb.toString());
- _endif_ */
+/* _endif_ */
             cmp = 2; // go right
         } else if (cmp_lb > 0) {
-/* _if_ 
+/* _if_ */
             StdOut.printf("range: level %d X go left and go right"
                           + " x.p %s; lb %s\n",
                           l, x.p.toString(), lb.toString());
- _endif_ */
+/* _endif_ */
             cmp = 3; // go left and go right
         }
         if (1 == cmp) {
@@ -233,32 +233,49 @@ public class KdTree {
             closest = x.p;
         }
         int cmp = compare2Points(x.p, p, l);
-        if ((cmp > 0) && (null != x.left)) {
-/* _if_ 
+        if (cmp > 0) {
+/* _if_ */
             StdOut.printf("nearest: level %d go left minDist %e\n", l, minDist);
- _endif_ */
-            closest = nearest(x.left, p, closest, minDist, l);
-            minDist = Math.min(minDist, p.distanceTo(closest));
-/* _if_ 
-            StdOut.printf("nearest: level %d min = minDist %e\n", l, minDist);
- _endif_ */
-            if (needCheck(p, x.p, minDist, l) && (null != x.right)) {
-/* _if_ 
+/* _endif_ */
+            boolean otherSideCheck = false;
+            if (null != x.left) {
+                closest = nearest(x.left, p, closest, minDist, l);
+                minDist = Math.min(minDist, p.distanceTo(closest));
+/* _if_ */
+                StdOut.printf("nearest: level %d min = minDist %e\n",
+                              l, minDist);
+/* _endif_ */
+                if (null != x.right)
+                    otherSideCheck = needCheck(p, x.p, minDist, l);
+            } else if (null != x.right)
+                otherSideCheck = true;
+            if (otherSideCheck) {
+/* _if_ */
                 StdOut.printf("nearest: level %d go go right\n", l);
- _endif_ */
+/* _endif_ */
                 closest = nearest(x.right, p, closest, minDist, l);
             }
         } 
-        if ((cmp < 0) && (null != x.right)) {
-/* _if_ 
+        if (cmp < 0) {
+/* _if_ */
             StdOut.printf("nearest: level %d go right\n", l);
- _endif_ */
-            closest = nearest(x.right, p, closest, minDist, l);
-            minDist = Math.min(minDist, p.distanceTo(closest));
-            if (needCheck(p, x.p, minDist, l) && (null != x.left)) {
-/* _if_ 
+/* _endif_ */
+            boolean otherSideCheck = false;
+            if (null != x.right) {
+                closest = nearest(x.right, p, closest, minDist, l);
+                minDist = Math.min(minDist, p.distanceTo(closest));
+/* _if_ */
+                StdOut.printf("nearest: level %d min = minDist %e\n",
+                              l, minDist);
+/* _endif_ */
+                if (null != x.left)
+                    otherSideCheck = needCheck(p, x.p, minDist, l);
+            } else if (null != x.left)
+                otherSideCheck = true;
+            if (otherSideCheck) {
+/* _if_ */
                 StdOut.printf("nearest: level %d go go left\n", l);
- _endif_ */
+/* _endif_ */
                 closest = nearest(x.left, p, closest, minDist, l);
             }
         }
@@ -286,7 +303,7 @@ public class KdTree {
         RectHV rectRight;
         if (0 == (l % 2)) {
             StdDraw.setPenColor(StdDraw.RED);
-            StdDraw.setPenRadius(0.001);
+            StdDraw.setPenRadius(0.01);
             StdDraw.line(x.p.x(), rect.ymin(), x.p.x(), rect.ymax());
             rectLeft  = new RectHV(rect.xmin(), rect.ymin(),
                                    x.p.x(), rect.ymax());
@@ -294,7 +311,7 @@ public class KdTree {
                                    rect.xmax(), rect.ymax());
         } else {
             StdDraw.setPenColor(StdDraw.BLUE);
-            StdDraw.setPenRadius(0.001);
+            StdDraw.setPenRadius(0.01);
             StdDraw.line(rect.xmin(), x.p.y(), rect.xmax(), x.p.y());
             rectLeft  = new RectHV(rect.xmin(), rect.ymin(),
                                    rect.xmax(), x.p.y());
