@@ -20,17 +20,17 @@ import java.util.NoSuchElementException;
 // import java.lang.reflect.Array;
 
 public class RandomizedQueue<Item> implements Iterable<Item> {
-/* _if_ 
+/* _if_ */
     private final String delimeter = "=======";
     private final static int MAX_INT_VAL = 536870912;
- _endif_ */
+/* _endif_ */
     private int iSize;
     private static class Node<Item> {
         private Item item;
-/* _if_ 
+/* _if_ */
         private Node<Item> next;
         private Node<Item> prev;
- _endif_ */
+/* _endif_ */
     }
     private Node<Item> nodeFirst;
     private Node<Item> nodeLast;
@@ -40,7 +40,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     // construct an empty randomized queue
  /* _if_ 
     @SuppressWarnings("unchecked")
- _endif_ */
+/* _endif_ */
     public RandomizedQueue() {
         nodeFirst = null;
         nodeLast = null;
@@ -58,7 +58,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     // resize the underlying array
     private void resize(int max) {
         iArrNodesSize = max;
-/* _if_ 
+/* _if_ */
         @SuppressWarnings("unchecked")
  /* _endif_ */
         Node<Item>[] arrTemp = (Node<Item>[]) new Node[max];
@@ -84,20 +84,20 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         if (isEmpty()) {
             nodeLast = new Node<Item>();
             nodeFirst = nodeLast;
-/* _if_ 
+/* _if_ */
             nodeLast.prev = null;
- _endif_ */
+/* _endif_ */
         } else {
             nodeLast = new Node<Item>();
-/* _if_ 
+/* _if_ */
             nodeLast.prev = nodeTemp;
             nodeTemp.next = nodeLast;
- _endif_ */
+/* _endif_ */
         }
         nodeLast.item = item;
-/* _if_ 
+/* _if_ */
         nodeLast.next = null;
- _endif_ */
+/* _endif_ */
         if (arrNodes.length == iSize) {
             resize(2*arrNodes.length);
         }
@@ -109,9 +109,9 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         int iRandom = StdRandom.uniform(iSize);
         int i = iRandom;
         int j = iRandom;
-/* _if_ 
+/* _if_ */
             StdOut.printf("iSize = %d, iRandom = %d\n", iSize, iRandom);
- _endif_ */
+/* _endif_ */
         while (null == arrNodes[iRandom] && iSize > 0) {
             if (i < (arrNodes.length - 1)) {
                 ++i;
@@ -137,19 +137,19 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             throw new NoSuchElementException("Queue underflow");
         }
         int iRandom = selectRandom();
-/* _if_ 
+/* _if_ */
             StdOut.printf("iSize = %d, iRandom = %d\n", iSize, iRandom);
- _endif_ */
+/* _endif_ */
         Node<Item> nodeTemp = arrNodes[iRandom];
         Item itemTemp = nodeTemp.item;
-/* _if_ 
+/* _if_ */
         if (null != nodeTemp.next) {
             nodeTemp.next.prev = nodeTemp.prev;
         }
         if (null != nodeTemp.prev) {
             nodeTemp.prev.next = nodeTemp.next;
         }
- _endif_ */
+/* _endif_ */
         if (iRandom >= 0) {
             nodeTemp = null;
             arrNodes[iRandom] = arrNodes[iSize - 1];
@@ -208,7 +208,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
 
 
-/* _if_ 
+/* _if_ */
     public void printAllNodesDown() {
         boolean whileTrigger = false;
         Node<Item> e = nodeFirst;
@@ -227,9 +227,9 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             StdOut.println(delimeter);
         }
     }
- _endif_ */
+/* _endif_ */
     // unit testing
-/* _if_ 
+/* _if_ */
     public static void main(String[] args) {
         int upperBound = 16;
         if (args.length > 0) {
@@ -308,7 +308,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         StdOut.printf("    rq.isEmpty() = %b\n", rq1.isEmpty());
         StdOut.println("=== end isEmpty() ===");
     }
- _endif_ */
+/* _endif_ */
 }
 
 /* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et

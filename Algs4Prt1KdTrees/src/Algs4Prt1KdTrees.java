@@ -53,6 +53,11 @@ public class Algs4Prt1KdTrees {
         Pattern p0 = Pattern.compile("^\\s*");
         Pattern p1 = Pattern.compile("\\s+");
         KdTree kdt = new KdTree();
+        Point2D query = new Point2D(0.4453125, 0.794921875);
+        Point2D nullPoint = kdt.nearest(query);
+        if (null == nullPoint)
+            StdOut.printf("nullPoint == %s\n", "nullPoint");
+        PointSET brute = new PointSET();
         RectHV rect = new RectHV(-1, -1, 1, 1);
         for (int i = 0; !StdIn.isEmpty(); i++) {
             String[] parts0 = p0.split(StdIn.readLine());
@@ -61,14 +66,19 @@ public class Algs4Prt1KdTrees {
             double y = Double.parseDouble(parts1[1]);
             Point2D p = new Point2D(x, y);
             kdt.insert(p);
+            brute.insert(p);
         }
         StdOut.println(kdt.contains(new Point2D(0, 0)));
         StdOut.println(kdt.contains(new Point2D(20, 37)));
         for (Point2D p : kdt.range(rect)) {
             StdOut.println(p.toString());
         }
-        Point2D nearest = kdt.nearest(new Point2D(2.0, 1.0));
-        StdOut.printf("== %s\n", nearest);
+        Point2D bnearest = brute.nearest(query);
+        Point2D knearest = kdt.nearest(query);
+        double bdist = query.distanceTo(bnearest);
+        double kdist = query.distanceTo(knearest);
+        StdOut.printf("bnearest == %s = %e\n", bnearest, bdist);
+        StdOut.printf("knearest == %s = %e\n", knearest, kdist);
 /*
         String filename = args[0];
         In in = new In(filename);

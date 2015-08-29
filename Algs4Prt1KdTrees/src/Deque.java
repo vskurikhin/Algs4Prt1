@@ -19,9 +19,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class Deque<Item> implements Iterable<Item> {
-/* _if_ 
+/* _if_ */
         private final String delimeter = "=======";
- _endif_ */
+/* _endif_ */
     private int iSize;
     private Node<Item> nodeFirst;
     private Node<Item> nodeLast;
@@ -149,7 +149,7 @@ public class Deque<Item> implements Iterable<Item> {
     // unit testing
     // public static void main(String[] args) {}
 
-/* _if_ 
+/* _if_ */
     public void printAllNodesDown() {
         boolean whileTrigger = false;
         Node<Item> e = nodeFirst;
@@ -168,7 +168,7 @@ public class Deque<Item> implements Iterable<Item> {
             StdOut.println(delimeter);
         }
     }
- _endif_ */
+/* _endif_ */
 }
 
 /* vim: syntax=java:fileencoding=utf-8:fileformat=unix:tw=78:ts=4:sw=4:sts=4:et

@@ -50,14 +50,19 @@ public class NearestNeighborVisualizer {
             // draw in red the nearest neighbor (using brute-force algorithm)
             StdDraw.setPenRadius(.03);
             StdDraw.setPenColor(StdDraw.RED);
-            brute.nearest(query).draw();
+            Point2D bp = brute.nearest(query);
+            bp.draw();
             StdDraw.setPenRadius(.02);
+            StdOut.printf("bp: %s\n", bp);
 
             // draw in blue the nearest neighbor (using kd-tree algorithm)
             StdDraw.setPenColor(StdDraw.BLUE);
-            kdtree.nearest(query).draw();
+            Point2D kp = kdtree.nearest(query);
+            kp.draw();
+            StdOut.printf("kp: %s\n", kp);
             StdDraw.show(0);
             StdDraw.show(40);
+            StdOut.printf("qp: %s\n", query);
         }
     }
 }
