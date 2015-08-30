@@ -116,14 +116,14 @@ public class KdTree {
      */
     private int compare2Points(Point2D a, Point2D b, int level) {
         int cmp;
-        if (0 == (level % 2)) {                     // This is an even level?
-            cmp = Point2D.X_ORDER.compare(a, b);    // Usual using x-coord.
-            if (0 == cmp)                           // a.x == b.x!
-                cmp = Point2D.Y_ORDER.compare(a, b);// Using y-coordinates.
-        } else {                                    // This is an odd level.
-            cmp = Point2D.Y_ORDER.compare(a, b);    // Usual using y-coord.
-            if (0 == cmp)                           // a.y == b.y!
-                cmp = Point2D.X_ORDER.compare(a, b);// Using x-coordinates.
+        if (0 == (level % 2)) {                      // This is an even level?
+            cmp = Point2D.X_ORDER.compare(a, b);     // Usual using x-coord.
+            if (0 == cmp)                            // a.x == b.x!
+                cmp = Point2D.Y_ORDER.compare(a, b); // Using y-coordinates.
+        } else {                                     // This is an odd level.
+            cmp = Point2D.Y_ORDER.compare(a, b);     // Usual using y-coord.
+            if (0 == cmp)                            // a.y == b.y!
+                cmp = Point2D.X_ORDER.compare(a, b); // Using x-coordinates.
         }
         return cmp;
     }
@@ -192,12 +192,13 @@ public class KdTree {
     /**
      * All points that are inside the rectangle.
      * @param rect  - query rectangle
+     * @return      - queue as Iterable<Point2D>
      */
     public Iterable<Point2D> range(RectHV rect) {
-        int level = -1;
-        Queue<Point2D> queue = new Queue<Point2D>();
         if (null == rect)
             throw new NullPointerException();
+        int level = -1;
+        Queue<Point2D> queue = new Queue<Point2D>();
         if (isEmpty())
             return queue;
         range(rect, queue, root, level);
@@ -215,11 +216,12 @@ public class KdTree {
      *************************************************************************/
     // 
     /**
-     * The main recursive method for the range.
+     * The main recursive function for the range.
      * @param rect  - query rectangle
      * @param x     - current node
      * @param p     - query point
      * @param level - current level
+     * @return      - queue
      */
     private void range(RectHV rect, Queue<Point2D> queue, Node x, int level) {
         if (null == x) return;
@@ -265,7 +267,8 @@ public class KdTree {
      * @param xp    - current point
      * @param mdist - Champion distance! Founded minimal distance.
      * @param level - current level
-     * This function checking reason for observe other side 2dTree.
+     * @return true - if need observe other side of the 2dTree.
+     * This function checking reason for observe other side of the 2dTree.
      */
     private boolean needCheck(Point2D p, Point2D xp, double mdist, int level) {
         if (0 == (level % 2)) {
@@ -296,54 +299,63 @@ public class KdTree {
      * found while exploring the first subtree may enable pruning of the second
      * subtree.
      *************************************************************************/
-    // helper method for nearest
     /**
+     * The main recursive function for the nearest.
      * @param x     - current node
      * @param p     - query point
      * @param n     - current closest point
+     * @param m     - Champion distance! Founded minimal distance.
      * @param level - current level
+     * @return      - closest point
      */
     private Point2D nearest(Node x, Point2D p, Point2D n, double m, int level) {
         if (null == x)
             throw new NullPointerException();
-        int l = level + 1;
-        double minDist = m;
-        Point2D closest = n;
-        double dist = p.distanceTo(x.p);
-        if (dist < minDist) {
-            minDist = dist;
+        int l = level + 1;                  // Compute next level.
+        double minDist = m;                 // Founded minimal distance.
+        Point2D closest = n;                // Current closest point.
+        double dist = p.distanceTo(x.p);    // Current closest distance.
+        if (dist < minDist) {               // If a current < the champion
+            minDist = dist;                 // update the champion.
             closest = x.p;
         }
         int cmp = compare2Points(x.p, p, l);
-        if (cmp > 0) {
-            boolean otherSideCheck = false;
-            if (null != x.left) {
-                closest = nearest(x.left, p, closest, minDist, l);
+        if (cmp > 0) {                      // The main side is left.
+            boolean otherSideCheck = false; // helper trigger
+            if (null != x.left) {           // If main side is not empty.
+                closest = nearest(x.left, p, closest, minDist, l);  // recursion
                 minDist = Math.min(minDist, p.distanceTo(closest));
-                if (null != x.right)
-                    otherSideCheck = needCheck(p, x.p, minDist, l);
-            } else if (null != x.right)
-                otherSideCheck = true;
+                if (null != x.right)        // If second side is not empty.
+                    otherSideCheck = needCheck(p, x.p, minDist, l); // need?
+            } else if (null != x.right)     // If main side is empty and second
+                otherSideCheck = true;      // side not then set trigger.
             if (otherSideCheck)
-                closest = nearest(x.right, p, closest, minDist, l);
+                closest = nearest(x.right, p, closest, minDist, l); // recursion
         } 
-        if (cmp < 0) {
-            boolean otherSideCheck = false;
-            if (null != x.right) {
-                closest = nearest(x.right, p, closest, minDist, l);
+        if (cmp < 0) {                      // The main side is right.
+            boolean otherSideCheck = false; // helper trigger
+            if (null != x.right) {          // If main side is not empty.
+                closest = nearest(x.right, p, closest, minDist, l); // recursion
                 minDist = Math.min(minDist, p.distanceTo(closest));
-                if (null != x.left)
-                    otherSideCheck = needCheck(p, x.p, minDist, l);
-            } else if (null != x.left)
-                otherSideCheck = true;
+                if (null != x.left)         // If second side is not empty.
+                    otherSideCheck = needCheck(p, x.p, minDist, l); // need?
+            } else if (null != x.left)      // If second side is not empty.
+                otherSideCheck = true;      // side not then set trigger.
             if (otherSideCheck)
-                closest = nearest(x.left, p, closest, minDist, l);
+                closest = nearest(x.left, p, closest, minDist, l);  // recursion
         }
         return closest;
     }
 
-    /*
-     * draw all of the points to standard draw
+    /**
+     * Draw all of the points to standard draw.
+     * <i>Draw</i>. A 2d-tree divides the unit square in a simple way: all
+     * the points to the left of the root go in the left subtree; all those
+     * to the right go in the right subtree; and so forth, recursively.
+     * Your draw() method should draw all of the points to standard draw in
+     * black and the subdivisions in red (for vertical splits) and blue
+     * (for horizontal splits).
+     * This method need not be efficient—it is primarily for debugging.
      */
     public void draw() {
         int level = -1;
@@ -351,6 +363,13 @@ public class KdTree {
         draw(root, rect, level);
     }
 
+    /**
+     * The main recursive function for draw.
+     * @param x     - current node
+     * @param rect  - current rect
+     * @param level - current level
+     * @return GUI method.
+     */
     private void draw(Node x, RectHV rect, int level) {
         if (x == null) {
             return;
