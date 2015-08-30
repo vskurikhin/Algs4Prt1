@@ -105,31 +105,35 @@ public class KdTree {
         root = put(root, p, -1);
     }
 
-    // helper method for compare two 2-D points
     /**
+     * Helper method for compare two 2-D points.
      * @param a     - 1st point
      * @param b     - 2nd point
      * @param level - current level
+     * using the x- and y-coordinates of the points as keys in strictly
+     * alternating sequence.
+     * This is method for kind of a 2dTree.
      */
     private int compare2Points(Point2D a, Point2D b, int level) {
         int cmp;
-        if (0 == (level % 2)) {
-            cmp = Point2D.X_ORDER.compare(a, b);
-            if (0 == cmp)
-                cmp = Point2D.Y_ORDER.compare(a, b);
-        } else {
-            cmp = Point2D.Y_ORDER.compare(a, b);
-            if (0 == cmp)
-                cmp = Point2D.X_ORDER.compare(a, b);
+        if (0 == (level % 2)) {                     // This is an even level?
+            cmp = Point2D.X_ORDER.compare(a, b);    // Usual using x-coord.
+            if (0 == cmp)                           // a.x == b.x!
+                cmp = Point2D.Y_ORDER.compare(a, b);// Using y-coordinates.
+        } else {                                    // This is an odd level.
+            cmp = Point2D.Y_ORDER.compare(a, b);    // Usual using y-coord.
+            if (0 == cmp)                           // a.y == b.y!
+                cmp = Point2D.X_ORDER.compare(a, b);// Using x-coordinates.
         }
         return cmp;
     }
 
-    // helper method for insert point
     /**
+     * The main recursive method for the insert point.
      * @param x     - current node
      * @param p     - query point
      * @param level - current level
+     * Main method for build KdTree.
      */
     private Node put(Node x, Point2D p, int level) {
         int l = level + 1;
@@ -153,9 +157,8 @@ public class KdTree {
      * to the two rectangles split by the x-coordinate of the point at the
      * root; and so forth.
      *************************************************************************/
-
-    // does the set contain point p? 
     /**
+     * Does the set contain point p? 
      * @param p     - point
      */
     public boolean contains(Point2D p) {
@@ -167,8 +170,8 @@ public class KdTree {
         return contains(root, p, -1);
     }
 
-    // helper method for contains
     /**
+     * The main recursive method for contains.
      * @param x     - current node
      * @param p     - query point
      * @param level - current level
@@ -186,8 +189,8 @@ public class KdTree {
             return p.equals(x.p);
     }
 
-    // all points that are inside the rectangle
     /**
+     * All points that are inside the rectangle.
      * @param rect  - query rectangle
      */
     public Iterable<Point2D> range(RectHV rect) {
@@ -210,8 +213,9 @@ public class KdTree {
      * A subtree is searched only if it might contain a point contained in
      * the query rectangle.
      *************************************************************************/
-    // helper method for range
+    // 
     /**
+     * The main recursive method for the range.
      * @param rect  - query rectangle
      * @param x     - current node
      * @param p     - query point
@@ -226,7 +230,9 @@ public class KdTree {
             range(rect, queue, x.right, l);
             return;
         }
+        // Left-bottom point of the rect.
         Point2D lb = new Point2D(rect.xmin(), rect.ymin());
+        // Right-upper point of the rect.
         Point2D ru = new Point2D(rect.xmax(), rect.ymax());
         int cmp_ru = compare2Points(x.p, ru, l);
         int cmp_lb = compare2Points(x.p, lb, l);
@@ -240,8 +246,8 @@ public class KdTree {
         }
     }
 
-    // a nearest neighbor in the set to point p; null if the set is empty 
     /**
+     * A nearest neighbor in the set to point p; null if the set is empty.
      * @param p     - query point
      */
     public Point2D nearest(Point2D p) {
@@ -253,7 +259,14 @@ public class KdTree {
         return nearest(root, p, root.p, Double.MAX_VALUE, level);
     }
 
-    // helper method for nearest
+    /**
+     * Helper method for nearest.
+     * @param p     - query point
+     * @param xp    - current point
+     * @param mdist - Champion distance! Founded minimal distance.
+     * @param level - current level
+     * This function checking reason for observe other side 2dTree.
+     */
     private boolean needCheck(Point2D p, Point2D xp, double mdist, int level) {
         if (0 == (level % 2)) {
             if (p.distanceTo(new Point2D(xp.x(), p.y())) < mdist)
